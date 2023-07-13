@@ -1,4 +1,4 @@
-#Following is a beautified version check below for the original conversation
+# Following is a beautified version check below for the original conversation
 
 # Neural Network Activations and Backpropagation
 
@@ -70,6 +70,7 @@ For more details and a step-by-step example, please refer to the full conversati
 # Original Conversation
 
 Use of activations in neural networks 
+<br>
 ChatGPT
 Activations play a crucial role in neural networks by introducing non-linearity and enabling the modeling of complex relationships between input and output data. They are applied to the outputs of individual neurons or the intermediate layers of a neural network. Here are some key points regarding the use of activations in neural networks:
 
