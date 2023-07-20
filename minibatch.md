@@ -37,6 +37,9 @@ Selecting an appropriate mini-batch size is an important hyperparameter that aff
 
 Common mini-batch sizes are powers of 2, such as 32, 64, 128, and 256, due to their efficiency in certain hardware architectures and deep learning libraries. However, the choice of mini-batch size should be based on available computational resources, model complexity, and the characteristics of the dataset.
 
+## Random vs. Sequential Batching
+Mini-batches can be formed using random or sequential sampling from the dataset. Random batching introduces more randomness and helps improve generalization. On the other hand, sequential batching preserves order, which can be beneficial for tasks like time-series data.
+
 ## Conclusion
 
 Mini-batch gradient descent is a powerful optimization algorithm that offers computational efficiency, regularization benefits, and improved generalization over batch gradient descent. By understanding the advantages and considerations of mini-batch gradient descent, you can apply it effectively in your machine learning projects to train accurate and robust models.
